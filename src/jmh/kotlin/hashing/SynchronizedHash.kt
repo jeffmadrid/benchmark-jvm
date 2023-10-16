@@ -5,7 +5,7 @@ import javax.crypto.Mac
 import javax.crypto.spec.SecretKeySpec
 
 @State(Scope.Benchmark)
-open class SynchronizedMacPerHash {
+open class SynchronizedHash {
 
     private val hmacSha256 = "HmacSHA256"
     private val secret = "secret".toByteArray()
